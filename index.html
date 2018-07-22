@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Bootstrap and CSS here-->
+    <style>
+    </style>
+
+</head>
+
+<body>
+
+    <div id='app'>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center headers" id='headers'>
+                    <h1 id="title">
+                        <span>The</span> Summer Guessing
+                        <span>Game!</span>
+                    </h1>
+                    <h3 id="subtitle">
+                        <span>Summer</span> is
+                        <span>On!</span> And
+                        <span>It's time</span> to start
+                        <span>Summering!</span>
+                    </h3>
+                    <h3 class="subtitle">
+                        <span>Guess</span> the right
+                        <span>number</span> and win a
+                        <span>surprise!</span>
+                    </h3>
+                    <h4 class="subtitle">Pick a
+                        <span>Number</span> between
+                        <span>1-100</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" id='main'>
+                    <div class="center" id='parent-input'>
+                        <!-- Player's guess input, and submit button -->
+                        <input id="player-input" class="center" placeholder="?" maxlength="4"></input>
+                        <button type="button" class="btn btn-warning" id="submit">Go!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center" id='guesses'>
+                    <ul>
+                        <li class="guess">#</li>
+                        <li class="guess">#</li>
+                        <li class="guess">#</li>
+                        <li class="guess">#</li>
+                        <li class="guess">#</li>
+                        <li class="guess">#</li>
+                    </ul>
+                    <!-- unordered list of guesses -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="center" id="menu-btns">
+                        <!-- reset and hint buttons -->
+                        <button id="reset" type="button" class="btn btn-warning">Reset</button>
+                        <button id="hint" type="button" class="btn btn-warning">Hint</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id='footer'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 full-stack">
+                    <a href="https://www.fullstackacademy.com/?utm_term=fullstack%20academy&utm_campaign=@_Fullstack_Brand_Exact&utm_source=adwords&utm_medium=ppc&hsa_tgt=kwd-75657140544&hsa_grp=38873009648&hsa_src=g&hsa_net=adwords&hsa_mt=e&hsa_ver=3&hsa_ad=137787787138&hsa_acc=9053058724&hsa_kw=fullstack%20academy&hsa_cam=658038665&gclid=CjwKCAjw4PHZBRA-EiwAAas4ZhoFgrkhCjQWCZKD9pMdzA61GW2le7t9y_y_utb3YcX2K-YQXIPQixoCky4QAvD_BwE"
+                        target="_blank">
+                        <img src='img/fa-logo@2x.png' alt="Fullstack logo">
+                    </a>
+                </div>
+                <div class="col-md-5 project-owner">
+                    <h4>Project by Katharine Francis</h4>
+                </div>
+                <div class="col-md-3 grace-hopper">
+                    <a href="https://www.gracehopper.com/" target="_blank">
+                        <img src='img/grace_hopper_academy.png' alt="Grace Hopper logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="GuessingGame.js"></script>
+</body>
+
+</html>
