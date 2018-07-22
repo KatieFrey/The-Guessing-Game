@@ -36,3 +36,4 @@ xdescribe('this won\'t run', function() {...});
 ```
 
 In Foundations Part 4, you'll get Guessing Game Part 3. Part 3 will link these functions to your existing HTML and CSS files using jQuery!
+# The-Guessing-Game
